@@ -1,1 +1,1 @@
-# bookstore-test
+# bookstore-StepOne-JavaScript
