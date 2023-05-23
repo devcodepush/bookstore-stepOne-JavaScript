@@ -1,0 +1,64 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+*{
+  font-family:monospace
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+}
+
+.book-image {
+  width: 220px;
+  height: 220px;
+}
+
+.shop-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+.book-card {
+  width: calc(20% - 10px);
+  height: auto;
+  border: 1px solid #242372;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.book-id, .book-price, .book-name {
+  font-size: 18px;
+}
+
+.book-info {
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.book-btn {
+  width: 50px;
+  border-radius: 5px;
+  background-color: #9cd2c3;
+}
+
+.navbar-anchor {
+  width: 80px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.searchbox-input {
+  width: 320px;
+  height: 30px;
+
+}
+
